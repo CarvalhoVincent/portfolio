@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Vincent Carvalho">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio de Vincent Carvalho</title>
+</head>
+
+<body>
+    <header id="primary-header" class="primary-header flex">
+        <div class="overlay">
+        <img class="logo" src="./assets/logoSMN.png" alt="Logo de Vincent Carvalho">
+        <a class="linkTitle" href="./index.html">vcarvalho.fr</a>
+        </div>
+        <button onclick="displayMenu()" class="mobile-nav-toggle" data-visible="false"
+            aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only"
+                role="presentation">Menu</span>
+        </button>
+        <nav class="nav">
+            <ul id="primary-navigation" class="primary-navigation flex">
+                <li><a href="./index.html">ACCUEIL</a></li>
+                <li><a href="./projets.html">PROJETS</a></li>
+                <li><a href="./sites.html">SITES</a></li>
+                <li><a href="./cv.html">CV</a></li>
+                <li><a href="https://docs.vcarvalho.fr">NOTES</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section  class="social-menu flex">
+            
+
+        </section>
+        <hr class="sep">
+        <section class="hero flex">
+            <div class="overlay">
+                <h1 class="hero-title">VINCENT<br>CARVALHO</h1>
+                <p class="hero-subtitle">Technicien systèmes et réseaux</p>
+                <p class="hero-subtitle">Etudiant en reconversion professionelle</p>
+                <p class="hero-subtitle">2ème année en TSR - CESI Nancy</p>
+            </div>
+            <div>
+                <img class="hero-image" src="./assets/hero.jpg" alt="Photo de Vincent Carvalho">
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-text">
+                <h2 class="about-title">A propos de <span class="highlight">moi</span></h2>
+                <p class="about-description">Je suis Vincent Carvalho, technicien systèmes et réseaux en reconversion professionnelle. J'ai décidé de me lancer dans le développement web et le développement d'applications mobiles. Je suis actuellement en 2ème année en alternance au CESI de Nancy en tant que Technicien Supérieur en Réseaux Informatiques et Télécommunications.</p>
+                <p class="about-description">Je suis passionné par l'informatique et les nouvelles technologies. J'aime apprendre et découvrir de nouvelles choses. Je suis curieux et j'aime relever des défis. Je suis également très motivé et je m'investis pleinement dans les projets qui me sont confiés.</p>    
+            </div>
+        
+    </main>
+    
+    
+
+    <footer class="footer flex">
+        <a href="https://www.linkedin.com/in/vincent-carvalho-1b1b3b1b3/" target="_blank" rel="noopener noreferrer" class="social-link">
+            <img class="linkedinLogo" src="./assets/linkedin.svg" alt="Logo de LinkedIn">
+        </a>
+        <a href="https://github.com/CarvalhoVincent/" target="_blank" rel="noopener noreferrer" class="social-link">
+            <img class="githubLogo" src="./assets/github.svg" alt="Logo de GitHub">
+        </a>
+    </footer>
+
+    <script src="./index.js"></script>
+
+    
+</body>
+
+</html>
