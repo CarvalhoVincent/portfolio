@@ -22,3 +22,44 @@ function displayMenu() {
         footer.style.opacity = "";
     }
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const cookieBanner = document.getElementById('cookie-banner');
+    const acceptCookies = document.getElementById('accept-cookies');
+    const declineCookies = document.getElementById('decline-cookies');
+
+    if (!localStorage.getItem('cookiesAccepted')) {
+        cookieBanner.classList.add('show');
+    }
+
+    function hideCookieBanner() {
+        cookieBanner.classList.remove('show');
+        setTimeout(() => {
+            cookieBanner.style.display = 'none';
+        }, 1000); // Correspond à la durée de la transition
+    }
+
+    acceptCookies.addEventListener('click', function() {
+        localStorage.setItem('cookiesAccepted', 'true');
+        hideCookieBanner();
+    });
+
+    declineCookies.addEventListener('click', function() {
+        localStorage.setItem('cookiesAccepted', 'false');
+        hideCookieBanner();
+    });
+});
+
+
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    if (!email || !subject || !message) {
+        alert('Tous les champs sont requis.');
+        event.preventDefault();
+    }
+});

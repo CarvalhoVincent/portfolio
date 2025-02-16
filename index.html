@@ -27,20 +27,16 @@
         </button>
         <nav class="nav">
             <ul id="primary-navigation" class="primary-navigation flex">
-                <li><a href="./index.html">ACCUEIL</a></li>
+                <li class="current-page"><a href="./index.html">ACCUEIL</a></li>
                 <li><a href="./projets.html">PROJETS</a></li>
                 <li><a href="./sites.html">SITES</a></li>
                 <li><a href="./cv.html">CV</a></li>
-                <li><a href="https://docs.vcarvalho.fr">NOTES</a></li>
+                <li><a href="https://docs.vcarvalho.fr" target="_blank">NOTES</a></li>
                 <li><a href="./contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section  class="social-menu flex">
-            
-
-        </section>
         <hr class="sep">
         <section class="hero flex">
             <div class="overlay">
@@ -56,21 +52,37 @@
         <section class="about">
             <div class="about-text">
                 <h2 class="about-title">A propos de <span class="highlight">moi</span></h2>
-                <p class="about-description">Je suis Vincent Carvalho, technicien systèmes et réseaux en reconversion professionnelle. J'ai décidé de me lancer dans le développement web et le développement d'applications mobiles. Je suis actuellement en 2ème année en alternance au CESI de Nancy en tant que Technicien Supérieur en Réseaux Informatiques et Télécommunications.</p>
-                <p class="about-description">Je suis passionné par l'informatique et les nouvelles technologies. J'aime apprendre et découvrir de nouvelles choses. Je suis curieux et j'aime relever des défis. Je suis également très motivé et je m'investis pleinement dans les projets qui me sont confiés.</p>    
+                <p class="about-description">Je suis Vincent Carvalho, technicien systèmes et réseaux en reconversion professionnelle. J'ai décidé de me lancer dans le développement web et le développement d'applications mobiles. </p>
+                <p class="about-description">Actuellement en 2ème année en alternance au CESI de Nancy en tant que Technicien Supérieur en Systèmes et Réseaux Informatiques.</p>
+                <p class="about-description">Passionné par l'informatique et les nouvelles technologies. J'aime apprendre et découvrir de nouvelles choses. Je suis curieux et j'aime relever des défis. Je suis également très motivé et je m'investis pleinement dans les projets qui me sont confiés.</p>
+                <p class="about-description">Je vous invite à visiter mon site afin d'en savoir plus sur moi, et à me contacter via la page <a class="link-bio" href="./contact.html">contact</a>. A bientôt !</p>    
             </div>
-        
+        </section>
     </main>
     
     
 
     <footer class="footer flex">
-        <a href="https://www.linkedin.com/in/vincent-carvalho-1b1b3b1b3/" target="_blank" rel="noopener noreferrer" class="social-link">
-            <img class="linkedinLogo" src="./assets/linkedin.svg" alt="Logo de LinkedIn">
-        </a>
-        <a href="https://github.com/CarvalhoVincent/" target="_blank" rel="noopener noreferrer" class="social-link">
-            <img class="githubLogo" src="./assets/github.svg" alt="Logo de GitHub">
-        </a>
+        <div class="cookie-banner" id="cookie-banner">
+            <p>Ce site utilise des cookies pour améliorer votre expérience. En continuant à naviguer sur ce site, vous acceptez notre utilisation des cookies.</p>
+            <div class="flex btn-cookies">
+                <button class="cookie-button" id="accept-cookies">Accepter</button>
+                <button class="cookie-button" id="decline-cookies">Décliner</button>
+            </div>
+        </div>
+        <div>
+            <p class="copyright">© 2025 Vincent Carvalho</p>
+            <p></p>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/vincent-carvalho/" target="_blank" rel="noopener noreferrer" class="social-link">
+                <img class="linkedinLogo" src="./assets/linkedin.svg" alt="Logo de LinkedIn">
+            </a>
+            <a href="https://github.com/CarvalhoVincent/" target="_blank" rel="noopener noreferrer" class="social-link">
+                <img class="githubLogo" src="./assets/github.svg" alt="Logo de GitHub">
+            </a>
+        </div>
+        
     </footer>
 
     <script src="./index.js"></script>
