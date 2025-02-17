@@ -51,8 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     const email = document.getElementById('email').value;
     const subject = document.getElementById('subject').value;
