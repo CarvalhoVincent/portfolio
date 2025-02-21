@@ -85,7 +85,7 @@ body {
     grid-template-rows: min-content min-content 1fr;
     overflow-x: hidden;
     background: rgb(11, 11, 11);
-
+    margin: 0;
 }
 
 /* make images easier to work with */
@@ -953,6 +953,7 @@ a {
     padding-top: 1rem;
     color: hsl( var(--clr-darkGray) );
     bottom:0;
+    margin-top: auto;
 }
 
 .footer a {
