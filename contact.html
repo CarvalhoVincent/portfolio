@@ -38,20 +38,34 @@
     </header>
     <main>
         <section class="contact-section">
-            <h2>Contactez-moi</h2>
+            <h1>Contact</h1>
             
-            <form id="contact-form" action="send_email.php" method="POST">
-                <label for="email">Votre adresse email :</label>
-                <input type="email" id="email" name="email" required>
+            <div class="contact-card">
+                <h2>Restons en contact</h2>
+                <p class="contact-intro">Si vous avez des questions, des suggestions ou si vous souhaitez simplement discuter de vos projets, n'hésitez pas à me contacter.</p>
+                <div class="contact-methods">
+                    <a href="mailto:mail@vcarvalho.fr" class="contact-item">
+                        <img src="./assets/mail.svg" alt="Email icon" class="contact-icon">
+                        <h3>Email</h3>
+                        <p>Pour toute demande professionnelle</p>
+                        <span class="contact-link">mail@vcarvalho.fr</span>
+                    </a>
                 
-                <label for="subject">Objet :</label>
-                <input type="text" id="subject" name="subject" required>
+                    <a href="https://www.linkedin.com/in/vincent-carvalho/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <img src="./assets/linkedin.svg" alt="LinkedIn icon" class="contact-icon">
+                        <h3>LinkedIn</h3>
+                        <p>Retrouvez mon profil professionnel</p>
+                        <span class="contact-link">Vincent Carvalho</span>
+                    </a>
                 
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                
-                <button type="submit">Envoyer</button>
-            </form>
+                    <a href="https://github.com/CarvalhoVincent/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <img src="./assets/github.svg" alt="GitHub icon" class="contact-icon">
+                        <h3>GitHub</h3>
+                        <p>Découvrez mes projets</p>
+                        <span class="contact-link">CarvalhoVincent</span>
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
     
