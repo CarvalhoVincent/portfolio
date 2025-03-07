@@ -459,6 +459,32 @@ a {
 
 /* Projets */
 
+.infra-container {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4.5rem;
+    gap: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+}
+
+.infra {
+    height: auto;
+    max-width: 100%;
+    border: #2F2F2F 1px solid;
+    max-height: 25rem;
+}
+
+@media (min-width: 786px) {
+    .infra-container {
+        flex-direction: row;
+        padding-inline: 1.5rem;
+
+    }
+    
+}
+
 .thm {
     display: flex;
     border-radius: 2rem;
